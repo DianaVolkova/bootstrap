@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: local('Montserrat'),
+		url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face{
+    font-family: ZC;
+    font-display: swap;
+    src: url("../ZCOOLXiaoWei-Regular.otf");
+    src: local("0"), url("../ZCOOLXiaoWei-Regular.woff") format("woff"),
+    url("../ZCOOLXiaoWei-Regular.ttf") format("truetype"),
+    url("../ZCOOLXiaoWei-Regular.otf") format("opentype"),
+    url("../ZCOOLXiaoWei-Regular.svg") format("svg");
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=ZCOOL+XiaoWei&display=swap');
+.container{
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+footer{
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    text-align: center;
+}
+#down{
+    margin-top: 30px;
+    color: #979797;
+}
+.col-lg-4{
+    margin-bottom: 10px;
+}
+#map{
+    width: 90%;
+}
+.row{
+    align-items: center;
+    margin: 0 auto;;
+}
+.header{
+    font-family: "Montserrat";
+    line-height: 19.5px;
+}
+.main{
+    margin-top: 59px;
+}
+.p-2 h{
+       font-family: "ZC";
+       color: #232020;
+}
+.p-2 p{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 500px;
+    color: #404040;
+}
+.tab-pane img{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.card-body{
+    background-color: #1C1A1A !important;
+    color: white;
+    font-family: "ZC";
+}
+@media(max-width:766px){
+    .header{
+        display: none;
+    }
+}
+@media(max-width:560px){
+    footer{
+        padding-top: 20px;
+    }
+#map{
+    display: none;
+}
+.p-2{
+    padding: 0px !important;
+}
+.p-2 h{
+    font-size: 20px;
+}
+.p-2 p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.btn, .nav-link, .col-md-4, .form-check-label, p{
+    font-size: 12px;
+}
+.col-auto img{
+    width: 80%;
+
+}
+.main{
+    margin: 0 auto;
+}
+}
+@media(max-width:377px){
+    .bg-warning-subtle{
+        flex-direction: column !important;
+    }
+    .p-2 h{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .p-2 p{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .btn{
+        font-size: 8px;
+    }
+    .nav-item button{
+        font-size: 8px;
+    }
+    .tab-pane img{
+        margin: 0 0 10px 0 !important;
+
+    }
+    .container{
+        margin-bottom: 10px !important;
+    }
+}
+@media(max-width:360px){
+    .tab-pane img{
+        width: 100%;
+    }
+    .col-auto p{
+        font-size: 8px;
+    }
+    .col-auto img{
+        width: 60%;
+    }
+    .container p{
+        font-size: 8px;
+    }
+    #down{
+        margin-top: 7px;
+    }
+}
